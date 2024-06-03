@@ -30,4 +30,12 @@ class Home extends BaseController
     {
         return view('spesifikasi.php');
     }
+    public function login(): string
+    {
+        return view('auth/login');
+    }
+    public function register(): string
+    {
+        return view('auth/register');
+    }
 }
